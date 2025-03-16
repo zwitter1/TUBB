@@ -86,6 +86,7 @@
 				text-align: center;
 				background-color: black;
 				color: white;
+				border-top: 1px solid white;
 		}
 
 		.infoPartition{

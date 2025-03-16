@@ -1,12 +1,17 @@
 <script>
 	//<iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=America%2FNew_York&showPrint=0&showTz=0&src=NjkyNDQ2NmM4NTY0NzAwZjhkYjEwOTY1Mzc1OTI2NTlmMzAxZGRmZDc3NjM2YmY2YTYzMzE3NDFlZjYyZDljOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border-width:0" width="375" height="400" frameborder="0" scrolling="no"></iframe>
+	const windowSize = window.innerWidth;
+	let tableWidth = "520";
+	if(windowSize < 520){
+		tableWidth = "375";
+	}
 </script>
 
 <div class="bookingRoot">
 	<h2>Book TUBB for your event</h2>
 	<div class="calendarContainer">
 		<iframe
-			src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showCalendars=0&showTabs=0&title=Tubb%20Event%20Schedule&src=NjkyNDQ2NmM4NTY0NzAwZjhkYjEwOTY1Mzc1OTI2NTlmMzAxZGRmZDc3NjM2YmY2YTYzMzE3NDFlZjYyZDljOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+			src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showCalendars=0&showTabs=0&title=Tubb%20Event%20Schedule&src=NjkyNDQ2NmM4NTY0NzAwZjhkYjEwOTY1Mzc1OTI2NTlmMzAxZGRmZDc3NjM2YmY2YTYzMzE3NDFlZjYyZDljOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border:solid 1px #777" width={tableWidth} height="600" frameborder="0" scrolling="no"></iframe>
 	</div>
 	<div class="infoContainer">
 		<h2>Rate: $400/night</h2>
