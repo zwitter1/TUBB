@@ -8,14 +8,14 @@
 </script>
 
 <div class="bookingRoot">
-	<h2>Book TUBB for your event</h2>
+	<h2 class="headerStyling">Book TUBB for your event</h2>
 	<div class="calendarContainer">
 		<iframe
-			src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showCalendars=0&showTabs=0&title=Tubb%20Event%20Schedule&src=NjkyNDQ2NmM4NTY0NzAwZjhkYjEwOTY1Mzc1OTI2NTlmMzAxZGRmZDc3NjM2YmY2YTYzMzE3NDFlZjYyZDljOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border:solid 1px #777" width={tableWidth} height="600" frameborder="0" scrolling="no"></iframe>
+			src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showCalendars=0&showTabs=0&title=Tubb%20Event%20Schedule&src=NjkyNDQ2NmM4NTY0NzAwZjhkYjEwOTY1Mzc1OTI2NTlmMzAxZGRmZDc3NjM2YmY2YTYzMzE3NDFlZjYyZDljOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border:solid 1px #777" width={tableWidth} height="600" title="Tubb Event Schedule" frameborder="0" scrolling="no"></iframe>
 	</div>
 	<div class="infoContainer">
-		<h2>Rate: $400/night</h2>
-		<a class="formLink" target="_blank" rel="noopener noreferrer" href="https://forms.gle/VdCUgP8xj3DEB9rm9" >Please fill out form to request booking</a>
+		<h2>Rate: $600/night</h2>
+		<a class="formLink" target="_blank" rel="noopener noreferrer" href="https://forms.gle/VdCUgP8xj3DEB9rm9" >Please click here and fill out the form to request booking</a>
 	</div>
 </div>
 
@@ -46,5 +46,16 @@
 	.infoContainer a {
 			font-size: 24px;
 			font-color: white;
+	}
+
+	.headerStyling{
+      font-family: 'molle-regular-italic';
+	}
+
+	.formLink{
+		color: orange;
+		font-size: 24px;
+		font-weight: bold;
+		font-style: italic;
 	}
 </style>

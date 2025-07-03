@@ -4,7 +4,6 @@
 		<nav class="mainNav navSelections molle-regular-italic">
 			<a href="/">Home</a>
 			<a href="/booking">Booking</a>
-			<a href="/setlist">Set List</a>
 			<a href="/media">Media</a>
 		</nav>
 	</div>
