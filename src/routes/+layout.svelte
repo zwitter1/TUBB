@@ -3,8 +3,8 @@
 	<div class="navContainer">
 		<nav class="mainNav navSelections molle-regular-italic">
 			<a href="/">Home</a>
-			<a href="/booking">Booking</a>
 			<a href="/media">Media</a>
+			<a href="/booking">Booking</a>
 		</nav>
 	</div>
 
